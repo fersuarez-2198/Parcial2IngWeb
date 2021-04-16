@@ -1,0 +1,67 @@
+.container{
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 1fr;
+    grid-template-areas: 
+    "head head headR";
+}
+ .container1 {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 0.8fr 1.3fr 1fr;
+    grid-template-rows: 1.7fr;
+    grid-template-areas:
+    "footerL footerC footerR";
+  }
+ .head1{
+    grid-area: head;
+    z-index: -1; 
+    background: LightSalmon;
+    margin-top: -10px;
+    /* position:absolute; */
+    /* width: 100px; */
+    /* height: auto;  */
+}
+/* Fondo del index */ 
+.img1{
+    width: 950px;
+    height: 550px;
+}
+
+.head2{
+    /* height: 200px;
+    width: 200px; */
+    margin-top: -10px;
+    grid-area: headR;
+    background: LightSkyBlue;
+    /* z-index: -1;
+    position:absolute; */
+}
+
+/* Imagen sillas negras */
+.img2{
+    /* margin-top: 5px;
+    margin-left: -8px; */
+    width: 440px;
+    height: 280px;
+}
+
+.footer1{
+    /* margin-left: -10px; */
+    background: LightSkyBlue;
+    grid-area: footerL;
+}
+
+.footer2{
+    /* margin-left: -10px; */
+    background: PaleGreen;
+    grid-area: footerC;
+}
+
+.footer3{
+    /* margin-left: -10px; */
+    background: PaleTurquoise;
+    grid-area: footerR;
+}
