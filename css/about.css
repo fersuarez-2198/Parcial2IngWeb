@@ -13,16 +13,14 @@
 @media screen and (max-height: 1440px) {
     .container{
         width: 100%;
-        margin: 0;
         display: grid;
         grid-template-columns: 0.6fr 0.6fr 1fr;
         grid-template-areas: 
         "head head headR";
         margin-top: -10px;
         margin-left: -8px;
-
     }
-     .container1 {
+    .container1 {
         width: 100%;
         margin: 0;
         display: grid;
@@ -30,34 +28,25 @@
         grid-template-rows: 1.7fr;
         grid-template-areas:
         "footerL footerC footerR";
-      }
-     .head1{
+    }
+    .head1{
         grid-area: head;
         z-index: -1; 
-        background: LightSalmon;
-        /* margin-top: -100px; */
         position:relative;
-        /* width: 100px; */
-        /* height: auto;  */
     }
-    /* Fondo del index */ 
     .navBar{
         font-family: spartanBold;
         color: #ffffff;
         display: grid;
         width: 100%;
         margin-top: -550px;
-        /*
-        grid-template-columns: 130px 5fr 5fr 5fr 5fr;
-        grid-template-rows: 1fr; */
+        
     }
     .title{
         z-index: 1;
         position: relative;
-        /* margin-top: -540px; */
         margin-left: 70px;
         font-size: 30px;
-        /* margin-top: 200px; */
     }
     .subtitle{
         width: 100%;
@@ -67,13 +56,9 @@
         font-size: 14px;
         margin-left: 180px;
         align-items: center;
-        /* margin-top: 200px; */
+        margin-top: -300px;
     }
 
-    /* .navBar ul{
-        margin: 0;
-        padding: 0;
-    } */
     .navBar li{
         float: left;
         margin: 0 2rem 0 0;
@@ -87,15 +72,11 @@
     .img1{
         z-index: -1;
         position:relative;
-        /* margin-top: -79px; */
         width: 955px;
         height: 575px;
     }
     
     .head2{
-        /* height: 200px;
-        width: 200px; */
-        /* margin-top: -10px; */
         margin-top: -70px; 
         grid-area: headR;
         background: #ffffff;
@@ -104,8 +85,6 @@
         grid-template-columns: 500px;
         grid-template-rows: 2fr 2.5fr 1fr;
         justify-content: center;
-        /* z-index: -1;
-        position:absolute; */
     }
     
     .title1{
@@ -113,47 +92,39 @@
         font-size: 21px;
         justify-items: center;
         margin-left: 20px;
-        margin-top: 80px;
-        /* background-color: darkslategray; */
+        margin-top: 90px;
+        z-index: 1;
     }
+    
     .content{
         font-family: spartanRegular;
         margin-left: 20px;
         font-size: 10px;
         color: #ababab;
-        /* background-color: darkgoldenrod; */
     }
 
     .iconosFlechas{
         position: relative;
         z-index: 1;
     }
-
-    /* Imagen sillas negras */
     .img2{
-        /* margin-top: 5px;
-        margin-left: -8px; */
         width: 440px;
         height: 280px;
     }
     
     .footer1{
-        /* margin-left: -10px; */
         background: LightSkyBlue;
         grid-area: footerL;
     }
     
     .footer2{
-        /* margin-left: -10px; */
         background: PaleGreen;
         grid-area: footerC;
         background-color: #ffffff;
     }
     
     .footer3{
-        /* margin-left: -10px; */
         background: PaleTurquoise;
         grid-area: footerR;
     }
-  
 }
