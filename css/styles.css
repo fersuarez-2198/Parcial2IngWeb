@@ -283,6 +283,7 @@
     .title{
         z-index: 1;
         position: absolute;
+        color: #ffffff;
         margin-top: -30px;
         margin-left: 350px;
         font-size: 30px;
