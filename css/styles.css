@@ -23,7 +23,6 @@
       }
       
       [class^="icon-"], [class*=" icon-"] {
-        /* use !important to prevent issues with browser extensions that change fonts */
         font-family: 'icomoon' !important;
         speak: never;
         font-style: normal;
@@ -57,12 +56,13 @@
       .icon-icon-angle-left:before {
         content: "\e905";
         color: #fff;
+        margin-top: 40px;
       }
       
-@media screen and (max-width: 1800px) {
+@media screen and (width: 1440px) {
     .container{
         width: 100%;
-        margin: 0;
+        margin: -50px;
         display: grid;
         grid-template-columns: 0.6fr 0.6fr 1fr;
         grid-template-areas: 
@@ -73,9 +73,9 @@
     }
      .container1 {
         width: 100%;
-        margin: 0;
+        margin: -10px;
         display: grid;
-        grid-template-columns: 0.8fr 1.3fr 1fr;
+        grid-template-columns: 0.8fr 2.2fr 0.5fr;
         grid-template-rows: 1.7fr;
         grid-template-areas:
         "footerL footerC footerR";
@@ -104,9 +104,9 @@
         z-index: 1;
         position: relative;
         /* margin-top: -540px; */
-        margin-left: 70px;
+        margin-left: 80px;
         /* font-size: 30px; */
-        /* margin-top: 200px; */
+        margin-top: -150px;
     }
     .icons{
         margin-top: -900px;
@@ -119,7 +119,7 @@
         width: 100%;
         z-index: 1;
         position: relative;
-        margin-top: -295px;
+        margin-top: -345px;
         font-size: 14px;
         margin-left: 180px;
         align-items: center;
@@ -145,14 +145,13 @@
         position:relative;
         /* margin-top: -79px; */
         width: 955px;
-        height: 575px;
+        height: 580px;
     }
     
     .head2{
         /* height: 200px;
         width: 200px; */
-        /* margin-top: -10px; */
-        margin-top: -70px; 
+        margin-top: -20px; 
         grid-area: headR;
         background: #ffffff;
         display: grid;
@@ -181,9 +180,12 @@
     }
 
     .iconosFlechas{
-        position: relative;
-        z-index: 5;
-        color: brown;
+        /* position: relative;
+        z-index: 5; */
+        background: #000000;
+        font-size: 40px;
+        margin-left: -73px;
+        
     }
 
     /* Imagen sillas negras */
@@ -220,7 +222,7 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (width: 375px) {
 
     .container{
         width: 100%;
@@ -259,7 +261,7 @@
         /* height: 200px;
         width: 200px; */
         /* margin-top: -10px; */
-        margin-top: -70px; 
+        margin-top: -45px; 
         grid-area: second;
         background: #ffffff;
         display: grid;
@@ -274,17 +276,24 @@
         z-index: -1;
         position:relative;
         /* margin-top: -79px; */
-        width: auto;
-        height: 700px;
+        width: 860px;
+        height: 750px;
         margin-left: -10px;
     }
     .title{
         z-index: 1;
         position: absolute;
-        margin-top: -895px;
+        margin-top: -30px;
         margin-left: 350px;
         font-size: 30px;
         /* margin-top: 200px; */
+    }
+    .icons{
+        margin-top: -1450px;
+        margin-left: 50px;
+        z-index: 1;
+        position: relative;
+        font-size: 30px;
     }
     .mostrar{
         height: 100px;
