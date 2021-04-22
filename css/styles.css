@@ -68,6 +68,8 @@
         grid-template-areas: 
         "head head headR";
         margin-top: -10px;
+        margin-left: -8px;
+
     }
      .container1 {
         width: 100%;
@@ -212,6 +214,7 @@
         background: PaleTurquoise;
         grid-area: footerR;
     }
+  
     .img3{
         margin-left: -10px; 
         width: 440px;
