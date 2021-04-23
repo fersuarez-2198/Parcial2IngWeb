@@ -59,7 +59,7 @@
         margin-top: 40px;
       }
       
-@media screen and (width: 1440px) {
+@media screen and (max-width: 1440px) {
     .container{
         width: 100%;
         margin: -50px;
